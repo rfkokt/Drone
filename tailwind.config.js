@@ -54,8 +54,6 @@ module.exports = {
             const utilities = {
                 ".bg-hero": {
                     "background-image": "url(/hero.png)",
-                    "background-size": "cover",
-                    // "width" : "100%"
                 }
             }
             addUtilities(utilities);
