@@ -27,6 +27,7 @@ module.exports = {
                 "abu": {
                     "50": "#111111111",
                     "100": "#f7f7f7",
+                    "150": "#F7F8FA",
                     "200": "#c2c2c2",
                     "300": "#8c8c8c",
                     "400": "#575757",
@@ -34,13 +35,13 @@ module.exports = {
                     "600": "#1f1f1f",
                     "700": "#1f1f1f",
                     "800": "#1c1c1c",
-                    "900": "#1a1a1a"
+                    "900": "#1a1a1a",
                 },
                 "blackContent": "#222222"
             },
             backgroundImage: {
                 "ultra-light": `url(/ultra_light1.png)`,
-                "best-resolution" :`url(/best_resolution1.png)`
+                "best-resolution": `url(/best_resolution1.png)`
             }
         },
     },
