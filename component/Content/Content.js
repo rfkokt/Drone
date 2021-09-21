@@ -13,7 +13,7 @@ export default function Content() {
                             <h1 className={" text-4xl md:text-5xl md:pt-16 pt-10 mb-5 font-medium text-blackContent mx-auto leading-relaxed"}>
                                 Ultra
                                 Light</h1>
-                            <p className={"text-2xl md:text-3xl text-abu-300 px-5 md:px-16"}>Drone move faster with weighing component <span
+                            <p className={"text-2xl md:text-3xl text-abu-300 px-11 md:px-18"}>Drone move faster with weighing component <span
                                 className={"text-abu-900"}>under 200 g</span></p>
                         </div>
                     </div>
