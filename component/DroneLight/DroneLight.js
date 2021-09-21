@@ -21,11 +21,11 @@ export default function DroneLight() {
                         <div className={"flex flex-wrap px-10 lg:px-0 md:text-center lg:-ml-6 lg:pr-40"}>
                             <div className={"lg:w-3/12 w-6/12 md:mb-10 md:pr-0 pr-2"}>
                                 <h1 className={"text-4xl font-medium"}>4K</h1>
-                                <p className={"text-xl text-blackContent opacity-75 font-light"}>Camera Resolution</p>
+                                <p className={"text-xl text-blackContent opacity-75 font-light"}>Camera <br/> Resolution</p>
                             </div>
                             <div className={"lg:w-3/12 w-6/12 md:pr-0 pr-2"}>
                                 <h1 className={"text-4xl font-medium"}>2 TB</h1>
-                                <p className={"text-xl text-blackContent opacity-75 font-light"}>Storage Capacity</p>
+                                <p className={"text-xl text-blackContent opacity-75 font-light"}>Storage <br/> Capacity</p>
                             </div>
                             <div className={"lg:w-3/12 w-6/12 md:pr-0 pr-2"}>
                                 <h1 className={"text-4xl font-medium"}>60 m/s</h1>
