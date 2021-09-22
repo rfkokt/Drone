@@ -5,13 +5,19 @@ const ultraLight = "./assets/images/ultra_light1.png"
 module.exports = {
     mode: 'jit',
     purge: ['./pages/**/*.{js,ts,jsx,tsx}', './component/**/*.{js,ts,jsx,tsx}'],
-    darkMode: false, // or 'media' or 'class'
+    darkMode: false, // or 'media' or 'class',
+    daisyui: {
+        themes: false,
+    },
     theme: {
         extend: {
             fontFamily: {
                 sans: ['Poppins', 'sans-serif']
             },
             colors: {
+                "theme-blue": "#5515ef",
+                "theme-pink": "#eb589e",
+                "theme-blue-dark": "#3c01ca",
                 "blue": {
                     "50": "#108107100",
                     "100": "#f1f3fe",
@@ -42,11 +48,30 @@ module.exports = {
             backgroundImage: {
                 "ultra-light": `url(/ultra_light1.png)`,
                 "best-resolution": `url(/best_resolution1.png)`
-            }
+            },
+            boxShadow: {
+                'theme-1': '0 0 60px -15px rgba(0, 0, 0, 0.7)',
+                'theme-2': '15px 0 35px -5px rgba(0, 0, 0, 0.5)',
+            },
+            fontSize: {
+                '10xl': '10rem',
+                '16xl': '16rem',
+                '17xl': '17rem',
+                '18xl': '18rem',
+                '19xl': '19rem',
+                '20xl': '20rem',
+            },
+            letterSpacing: {
+                'more-wide': '1rem',
+            },
         },
     },
     variants: {
-        extend: {},
+        extend: {
+            scale: ['active', 'group-hover'],
+            rotate: ['group-hover'],
+            inset: ['hover', 'group-hover'],
+        },
     },
     plugins: [
         plugin(function ({
@@ -58,6 +83,7 @@ module.exports = {
                 }
             }
             addUtilities(utilities);
-        })
+        }),
+        require('daisyui'),
     ],
 }
