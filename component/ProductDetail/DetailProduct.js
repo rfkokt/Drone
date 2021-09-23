@@ -46,7 +46,7 @@ export default function DetailProduct({name, price, desc, src}) {
     return (
         <>
             {size.width > 1024 ?
-                <div className="flex carousel-item items-center justify-center w-full h-screen overflow-hidden">
+                <div className="flex carousel-item items-center justify-center w-full xl:h-screen overflow-hidden">
                     <div className="box-wrapper relative w-2/3 h-4/5  p-16 select-none">
                         <div
                             className="left-circle rounded-full border border-white w-6 h-6 absolute left-0 top-12"></div>
@@ -87,7 +87,7 @@ export default function DetailProduct({name, price, desc, src}) {
                                     <img src="https://i.ibb.co/HFpkHLc/text-logo.png" className="w-56" alt="logo"/>
                                 </div>
 
-                                <div className="paragraph py-3 mt-20">
+                                <div className="paragraph py-3 mt-10 xl:mt-20">
                                     <span className="font-bold text-3xl text-gray-600">{price}</span>
                                     <p className="leading-6 mt-3 text-gray-700 text-lg">{desc}</p>
                                     <Button variant={"blue"} className={"mt-10"} to={'/store'}>Get Now</Button>
