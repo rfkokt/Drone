@@ -52,7 +52,7 @@ export default function DetailProduct({name, price, desc, src}) {
                         <div className="rounded-2xl w-full h-full bg-gray-100 flex flex-wrap">
                             <div
                                 className="bg-gradient-to-tr from-blue-700 to-blue-500 w-1/2 h-full rounded-2xl transform scale-105 shadow-theme-2">
-                                <div className="h-full w-full flex items-end justify-center">
+                                <div className="h-full w-full flex items-end justify-center group">
                                     <div className="relative">
                                         <h1 className="text-5xl font-bold text-white text-center transition-all duration-500 transform group-hover:-rotate-15 group-hover:scale-125">{name}</h1>
                                         <img src={src} alt="drone"

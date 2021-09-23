@@ -1,8 +1,8 @@
 export default function Card({name, desc, src, work}) {
     return (
-        <div className={"rounded-xl justify-center boxShadow"}>
+        <div className={"rounded-xl justify-center boxShadow group"}>
             <div
-                className="left-side w-full h-full border-2 rounded-lg transform scale-105 shadow-lg">
+                className="left-side w-full h-full border-2 rounded-lg transition-all duration-500 transform group-hover:scale-125">
                 <p className={"px-7 py-3 italic"}>
                     {`"`}{desc}{`"`}
                 </p>
