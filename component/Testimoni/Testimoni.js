@@ -13,7 +13,7 @@ export default function Testimoni() {
                             Are Saying</h1>
                     </div>
                     <div className={"flex flex-wrap justify-center"}>
-                        <div className={"lg:w-3/12 w-full lg:ml-10 lg:mb-0 ml-0 mb-10 mx-5 ml-4 "}>
+                        <div className={"lg:w-3/12 w-full lg:ml-10 lg:mb-0 ml-5 mb-10 mx-5 ml-4 "}>
                             <Card
                                 name={"Hugo Adams"}
                                 desc={" With high resolution camera,\n" +
@@ -23,7 +23,7 @@ export default function Testimoni() {
                                 work={"Content Creator"}
                             />
                         </div>
-                        <div className={" lg:w-3/12 w-full  lg:ml-10 lg:mb-0 ml-0 mb-10 mx-5 ml-4"}>
+                        <div className={" lg:w-3/12 w-full  lg:ml-10 lg:mb-0 ml-5 mb-10 mx-5 ml-4"}>
                             <Card
                                 name={"Jennie Obrien"}
                                 desc={"Taking high view video become easy and faster. Battery performance really helping for making film."}
@@ -31,7 +31,7 @@ export default function Testimoni() {
                                 work={"Director Film"}
                             />
                         </div>
-                        <div className={"lg:w-3/12 w-full  lg:ml-10 lg:mb-0 ml-0 mb-10 mx-5 ml-4"}>
+                        <div className={"lg:w-3/12 w-full  lg:ml-10 lg:mb-0 ml-5 mb-10 mx-5 ml-4"}>
                             <Card
                                 name={"Lisa Millz"}
                                 desc={"Making video content for my trip\n" +

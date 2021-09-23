@@ -3,7 +3,8 @@ import DroneL from "../../assets/images/benefit_feature_image1.png"
 
 export default function DroneLight() {
     return (
-        <div className={"bg-abu-150"}>
+
+        <div className={"bg-abu-150 pb-20"}>
             <div className={"container mx-auto"}>
                 <div className={"flex flex-wrap"}>
                     <div className={"lg:w-4/12 text-center w-full py-6 px-20 lg:px-0 lg:py-20 lg:pl-32"}>
